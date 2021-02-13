@@ -1,0 +1,7 @@
+version: "3"
+services: 
+  apache2:
+    image: kayurm/hw_apache:first
+    restart: always
+    ports: 
+      - "80:80"
